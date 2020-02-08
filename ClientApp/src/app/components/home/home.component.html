@@ -1,0 +1,54 @@
+
+
+
+
+    <div class="jumbotron">
+      <h1 class="display-4">  Hi {{username}} </h1>
+      <button class="btn btn-danger btn-lg float-right" (click)="logout()">Logout</button>
+    </div>
+
+
+   
+
+
+
+
+
+<div class="=container-fluid"> 
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Modified</th>
+        <th scope="col">File Size</th>
+        <th scope="col">Sharing</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <td><button type="submit" (click)='postUser();'class="btn btn-success btn-lg float-right" id="btnLogin">Edit</button> </td>
+        <td><button type="submit" (click)='postUser();'class="btn btn-danger btn-lg float-right" id="btnLogin">Delete</button> </td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+        <td><button type="submit" (click)='postUser();'class="btn btn-success btn-lg float-right" id="btnLogin">Edit</button> </td>
+        <td><button type="submit" (click)='postUser();'class="btn btn-danger btn-lg float-right" id="btnLogin">Delete</button> </td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+        <td><button type="submit" (click)='postUser();'class="btn btn-success btn-lg float-right" id="btnLogin">Edit</button> </td>
+        <td><button type="submit" (click)='postUser();'class="btn btn-danger btn-lg float-right" id="btnLogin">Delete</button> </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
